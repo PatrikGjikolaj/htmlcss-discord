@@ -2,7 +2,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Nunito', sans-serif;
 }
 header{
     background-image: url(../img/jumbo.png);
@@ -79,7 +79,7 @@ button{
     min-height: 504px;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: start;
 }
 .p1{
     display: flex;
@@ -96,6 +96,7 @@ button{
     margin: 45px 0px;
 }
 h2{
+    font: bold;
     font-size: 35px;
 }
 .bloccom2{
@@ -126,7 +127,6 @@ h2{
 .bloccom4{
     background-color: rgb(35, 39, 42);
     width: 100%;
-    min-height: 525px;
     display: flex;
     justify-content: center;
 }
@@ -138,7 +138,6 @@ h2{
     max-width: calc(62.5% /6);
 }
 .p45{
-    min-height: 480px;
     margin: 12px 0px 35px 0px;
 }
 .bloccom5{
@@ -157,10 +156,8 @@ h2{
 }
 .p7{
     display: flex;
-    align-items: center;
     flex-direction: row;
     max-width: 62.5%;
-    min-height: 750px;
     margin: 45px 0px;
     justify-content: space-between;
     color: white;
@@ -170,4 +167,11 @@ h2{
 }
 .p8{
     max-width: 62.5%;
+}
+.ita{
+    width: 20px;
+}
+#wave{
+    opacity: 0.05;
+    transform: scaleY(-1);
 }
