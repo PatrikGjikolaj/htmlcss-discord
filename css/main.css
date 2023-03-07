@@ -120,7 +120,7 @@ h2{
     text-align: center;
 }
 #btnFondo{
-    background-color: lightgrey;
+    background-color: #8799d6;
     color: white;
 }
 .bloccom4{
@@ -131,19 +131,15 @@ h2{
     justify-content: center;
 }
 .p4{
-    background-color: rgb(240, 128, 128);
-    min-width: calc(62.5% /3);
+    max-width: calc(62.5% /3);
+    align-items: center;
 }
 .p5{
-    background-color: rgb(32, 178, 170);
-    min-width: calc(62.5% /6);
+    max-width: calc(62.5% /6);
 }
 .p45{
-        min-height: 480px;
+    min-height: 480px;
     margin: 12px 0px 35px 0px;
-}
-hr{
-    color: rgb(211, 211, 211);
 }
 .bloccom5{
     background-color: rgb(35, 39, 42);
@@ -152,7 +148,6 @@ hr{
     width: 100%;
 }
 .p6{
-    background-color: rgb(127, 255, 212);
     display: flex;
     justify-content: space-between;
     margin-top: 25px;
@@ -160,7 +155,19 @@ hr{
     min-height: 66px;
     align-items: center;
 }
-#logo2{
-    background-color: #ffb6c1;
-    padding: 5px;
+.p7{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    max-width: 62.5%;
+    min-height: 750px;
+    margin: 45px 0px;
+    justify-content: space-between;
+    color: white;
+}
+.blueText{
+    color: #7289da;
+}
+.p8{
+    max-width: 62.5%;
 }
