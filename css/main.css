@@ -79,38 +79,49 @@ button{
     min-height: 504px;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 .p1{
-    background-color: rgb(30, 144, 255);
-    min-width: 42%;
+    display: flex;
+    max-width: 42%;
     min-height: 415px;
     margin: 45px 0px;
 }
 .p2{
-    background-color: rgb(255, 192, 203);
-    min-width: 21%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    max-width: 21%;
     min-height: 415px;
     margin: 45px 0px;
 }
+h2{
+    font-size: 35px;
+}
 .bloccom2{
-    background-color: rgb(211, 211, 211);
     width: 100%;
     min-height: 504px;
     display: flex;
     justify-content: center;
 }
 .bloccom3{
-    background-color: rgb(211, 211, 211);
     width: 100%;
     min-height: 835px;
     display: flex;
     justify-content: center;
 }
 .p3{
-    background-color: rgb(34, 139, 34);
-    min-width: 62.5%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    max-width: 62.5%;
     min-height: 750px;
     margin: 45px 0px;
+    text-align: center;
+}
+#btnFondo{
+    background-color: lightgrey;
+    color: white;
 }
 .bloccom4{
     background-color: rgb(35, 39, 42);
